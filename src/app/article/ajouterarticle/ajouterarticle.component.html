@@ -1,0 +1,32 @@
+<div class="container d-flex justify-content-center ">
+
+    <div class="row col-6">
+        <h1 class="text-center m-5">Rédiger un article</h1>
+        <form [formGroup]="artForm" (ngSubmit)="ajouter()">
+            <div>
+                <label class="form-label m-2 ">Titre d'article</label>
+                <input type="text" formControlName="title" class="form-control" />
+            </div>
+            <div>
+                <label class="form-label m-2 ">Contenue d'article:</label>
+                <textarea formControlName="contenue" class="form-control" rows="3"></textarea>
+            </div>
+            <div>
+                <label class="form-label m-2">Catégorie:</label>
+                <select formControlName="category" id="categorie" class="form-select">
+                    <option>Sport</option>
+                    <option>Technologies</option>
+                    <option>Société</option>
+                    <option>Culture</option>
+                    <option>Mode</option>
+                </select>
+            </div>
+            <div>
+                <label for="date" class="form-label m-2 ">Date d'émission:</label>
+                <input type="date" formControlName="date" class="form-control" id="date" />
+            </div>
+            <button type="submit" class="btn btn-primary m-3">Ajouter</button>
+
+        </form>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+<p>listearticle works!</p>
+<div *ngFor="let article of artTab">
+
+
+</div>
+
+<table class="table  table-hover table-bordered">
+
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>Titre d'Article</th>
+            <th>Contenue</th>
+            <th>Catégorie</th>
+            <th>Date d'émission</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let article of artTab">
+            <th>{{article.id}}</th>
+            <td>{{article.title}}</td>
+            <td>{{article.contenue}}</td>
+            <td>{{article.category}}</td>
+            <td>{{article.date}}</td>
+            <td>
+                <a class="btn btn-danger me-2" (click)="supprimerArticle(article.id)">Supprimer</a>
+                <a class="btn  btn-success" (click)="updateArticle(article)">Update</a>
+            </td>
+        </tr>
+</table>

@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+      "id": "046b",
+      "firstName": "dhaouadi",
+      "lasttName": "",
+      "email": "dhaou@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "090a",
+      "firstName": "dhaouadi",
+      "lastName": "anas",
+      "email": "dhaou@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "e867",
+      "firstName": "aazer",
+      "lastName": "azeer",
+      "email": "anahdbh@sfr.fr",
+      "password": "12"
+    },
+    {
+      "id": "3d7f",
+      "firstName": "dhaouadi",
+      "lastName": "taher",
+      "email": "taher@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "9ec4",
+      "firstName": "anas",
+      "lastName": "dhaoua",
+      "email": "anas@gmail.com",
+      "password": "1212"
+    },
+    {
+      "id": "5c15",
+      "firstName": "haha",
+      "lastName": "hihi",
+      "email": "haha@haha.com",
+      "password": "1212"
+    },
+    {
+      "id": "0167",
+      "firstName": "chargui",
+      "lastName": "hamza",
+      "email": "hamza@sfr.fr",
+      "password": "123123",
+      "confirmPassword": "123123"
+    },
+    {
+      "id": "a2b3",
+      "firstName": "abassi",
+      "lastName": "hamza",
+      "email": "hamza@sfr.fr",
+      "password": "123123",
+      "confirmPassword": "123123"
+    }
+  ],
+  "articles": [
+    {
+      "id": "aa4f",
+      "title": "aaa",
+      "contenue": "aaaa",
+      "category": "Société",
+      "date": "2024-02-01"
+    },
+    {
+      "id": "c219",
+      "title": "aaa",
+      "contenue": "aaaaa",
+      "category": "Sport",
+      "date": "2024-02-04"
+    },
+    {
+      "id": "b3a9",
+      "title": "sss",
+      "contenue": "sss",
+      "category": "Sport",
+      "date": "2024-02-04"
+    },
+    {
+      "id": "e4c6",
+      "title": "tennis",
+      "contenue": "raquette",
+      "category": "Sport",
+      "date": "2024-01-31"
+    },
+    {
+      "id": "feb0",
+      "title": "aerty",
+      "contenue": "yfjgj",
+      "category": "Technologies",
+      "date": "2024-02-01"
+    },
+    {
+      "id": "8183",
+      "title": "azerty",
+      "contenue": "azertt",
+      "category": "Technologies",
+      "date": "2024-02-08"
+    },
+    {
+      "id": "040b",
+      "title": "aaaa",
+      "contenue": "aaaa",
+      "category": "Technologies",
+      "date": "2024-02-03"
+    },
+    {
+      "id": "4226",
+      "title": "asqazsq",
+      "contenue": "azsqazs",
+      "category": "Mode",
+      "date": "2023-04-11"
+    },
+    {
+      "id": "c69c",
+      "title": "sqdqsdqs",
+      "contenue": "sdqsdqsd",
+      "category": "Société",
+      "date": "2024-02-29"
+    },
+    {
+      "id": "49a7",
+      "title": "moidhfq",
+      "contenue": "adaqsd",
+      "category": "Société",
+      "date": "2024-02-04"
+    },
+    {
+      "id": "705b",
+      "title": "articles",
+      "contenue": "articles",
+      "category": "Sport",
+      "date": "2024-02-11"
+    }
+  ]
+}
